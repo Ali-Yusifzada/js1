@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container-fluid {
+  background-color: #8400ff !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  display: -ms-grid !important;
+  display: grid !important;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+}
+
+.container-fluid form {
+  background-color: white;
+  padding: 50px 45px;
+}
+
+.container-fluid form .ty {
+  margin-left: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container-fluid form .ty div {
+  width: 90px;
+  height: 8px;
+  border-radius: 5px;
+  background-color: #c5c5c5;
+}
+
+.container-fluid form #id {
+  width: 360px;
+  height: 40px;
+  outline: none;
+  padding-left: 10px;
+}
+
+.container-fluid form button {
+  width: 130px;
+  height: 35px;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  background-color: #8400ff;
+}
+
+.container-fluid form button svg {
+  width: 20px;
+  fill: white;
+}
+/*# sourceMappingURL=style.css.map */

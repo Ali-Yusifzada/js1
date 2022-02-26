@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container-fluid{
+    background-color: rgb(132, 0, 255) !important;
+    width: 100vw !important;
+    height: 100vh !important;
+    display: grid !important;
+    align-items: center !important;
+    justify-content: center !important;
+    form{
+        background-color: white;
+        padding: 50px 45px;
+        .ty{
+            margin-left: 0px;
+            display: flex;
+            div{
+                width: 90px;
+                height: 8px;
+                border-radius: 5px;
+                background-color: rgb(197, 197, 197);
+            }
+        }
+        #id{
+            width: 360px;
+            height: 40px;
+            outline: none;
+            padding-left: 10px;
+        }
+        button{
+            width: 130px;
+            height: 35px;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            background-color: rgb(132, 0, 255);
+            svg{
+                width: 20px;
+                fill: white;
+            }
+        }
+    }
+}
